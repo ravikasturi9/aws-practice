@@ -4,7 +4,7 @@ require 'vendor/autoload.php';
 
 function ServiceHandler() {
     $data = new stdClass();
-    $data->Output = "Hello World! this is a DEVOPS Practice Day1";
+    $data->Output = "Hello World! this is a DEVOPS Practice Day2, Manager Approved";
 
     return json_encode($data);
 };
